@@ -139,6 +139,56 @@
             bindings = <&kp EQUAL>;
             key-positions = <28 29>;
         };
+
+        combo_no1 {
+            bindings = <&kp N1>;
+            key-positions = <33 26>;
+        };
+
+        combo_no2 {
+            bindings = <&kp N2>;
+            key-positions = <33 27>;
+        };
+
+        combo_no3 {
+            bindings = <&kp N3>;
+            key-positions = <33 28>;
+        };
+
+        combo_no4 {
+            bindings = <&kp N4>;
+            key-positions = <33 16>;
+        };
+
+        combo_no5 {
+            bindings = <&kp N5>;
+            key-positions = <33 17>;
+        };
+
+        combo_no6 {
+            bindings = <&kp N6>;
+            key-positions = <33 18>;
+        };
+
+        combo_no7 {
+            bindings = <&kp N7>;
+            key-positions = <33 6>;
+        };
+
+        combo_no8 {
+            bindings = <&kp N8>;
+            key-positions = <33 7>;
+        };
+
+        combo_no9 {
+            bindings = <&kp N9>;
+            key-positions = <33 8>;
+        };
+
+        combo_no0 {
+            bindings = <&kp N0>;
+            key-positions = <9 33>;
+        };
     };
 
     macros {
