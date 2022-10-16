@@ -44,6 +44,16 @@
             bindings = <&to 1>;
             key-positions = <31 30 24>;
         };
+
+        combo_pp {
+            bindings = <&kp C_PP>;
+            key-positions = <4 5>;
+        };
+
+        new_combo {
+            bindings = <&trans>;
+            key-positions = <>;
+        };
     };
 
     macros {
