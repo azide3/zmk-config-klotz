@@ -362,7 +362,7 @@
                                               &kp LSHIFT  &gqt LS(ENTER) ENTER  &gqt LG(SPACE) SPACE  &gqt LA(BACKSPACE) BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
         };
 
         SETTINGS {
