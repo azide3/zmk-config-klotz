@@ -356,9 +356,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-  &gqt N1 Q  &gqt NUMBER_2 W     &gqt N3 E  &gqt LG(R) R          &gqt LG(T) T                 &kp Y                  &gqt LG(U) U  &gqt LG(I) I         &kp O     &kp P
- &gqt TAB A            &kp S    &mt LALT D    &mt LGUI F           &mt LCTRL G            &mt LALT H                    &mt LGUI J   &mt RCTRL K  &gqt LG(L) L  &kp SEMI
-      &kp Z            &kp X  &gqt LG(C) C  &gqt LG(V) V          &gqt LG(B) B          &gqt LG(N) N                         &kp M     &kp COMMA       &kp DOT  &kp FSLH
+  &gqt N1 Q  &gqt NUMBER_2 W     &gqt N3 E  &gqt LG(R) R          &gqt LG(T) T                 &kp Y                  &gqt LG(U) U  &gqt LG(I) I         &kp O                 &kp P
+ &gqt TAB A            &kp S    &mt LALT D    &mt LGUI F           &mt LCTRL G            &mt LALT H                    &mt LGUI J   &mt RCTRL K  &gqt LG(L) L              &kp SEMI
+      &kp Z            &kp X  &gqt LG(C) C  &gqt LG(V) V          &gqt LG(B) B          &gqt LG(N) N                         &kp M     &kp COMMA       &kp DOT  &gqt BACKSLASH SLASH
                                               &kp LSHIFT  &gqt LS(ENTER) ENTER  &gqt LG(SPACE) SPACE  &gqt LA(BACKSPACE) BACKSPACE
             >;
 
