@@ -299,7 +299,7 @@
 
         combo_screenshot {
             timeout-ms = <35>;
-            bindings = <&kp LG(LC(LS(N4)))>;
+            bindings = <&kp LG(LS(N4))>;
             key-positions = <0 20 9 29>;
         };
 
