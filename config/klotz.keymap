@@ -228,7 +228,7 @@
         combo_rightscreen {
             timeout-ms = <35>;
             bindings = <&kp LC(RIGHT)>;
-            key-positions = <9 19>;
+            key-positions = <4 14>;
         };
 
         combo_nexttrack {
@@ -288,7 +288,7 @@
         combo_spaces {
             timeout-ms = <35>;
             bindings = <&kp LC(UP)>;
-            key-positions = <0 9>;
+            key-positions = <0 4>;
         };
 
         combo_to0 {
@@ -362,7 +362,7 @@
                                            &kp LSHIFT  &gqt LS(ENTER) ENTER  &gqt LG(SPACE) SPACE  &gqt LA(BACKSPACE) BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         SETTINGS {
