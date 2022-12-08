@@ -24,6 +24,14 @@
 #define TVP1 4
 #define TVP2 5
 
+&mmv {
+    time-to-max-speed-ms = <500>;
+};
+
+&mwh {
+    acceleration-exponent=<1>;
+};
+
 &mt {
     quick-tap-ms = <100>;
     global-quick-tap;
@@ -382,9 +390,9 @@
 
         MOUSE {
             bindings = <
- &trans  &trans  &mmv MOVE_UP  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &mmv MOVE_UP  &trans  &mwh SCROLL_UP  &trans  &trans  &trans  &trans  &trans
+ &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mwh SCROLL_DOWN  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &mwh SCROLL_LEFT  &mwh SCROLL_RIGHT  &trans  &trans  &trans  &trans  &trans
                          &trans  &trans  &mkp LCLK  &mkp RCLK
             >;
         };
