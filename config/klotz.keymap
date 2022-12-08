@@ -381,10 +381,10 @@
 
         MOUSE {
             bindings = <
+ &trans  &trans  &mkp MOVE_UP  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &mkp MOVE_LEFT  &mkp MOVE_DOWN  &mkp MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans  &trans
+                         &trans  &trans  &mkp LCLK  &mkp RCLK
             >;
         };
 
