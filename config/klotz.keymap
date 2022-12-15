@@ -346,7 +346,7 @@
             key-positions = <2 4>;
         };
 
-        new_combo {
+        combo_to2 {
             bindings = <&to 2>;
             key-positions = <32 33>;
         };
